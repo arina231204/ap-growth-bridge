@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>AP Cross-Border Growth Bridge · Казахстан</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: a working tool for UniCorner AI trackers — sticky step bar, one step per view, form on the left and live result on the right; collapses to one column on phones. */
+:root{
+  --bg:#F1F4F8; --surface:#FBFCFE; --sunken:#E7ECF3; --ink:#0F2740; --muted:#4B5A6E; --line:#D5DDE8;
+  --accent:#1E5FC2; --accent-soft:#DCE7F8; --steppe:#B8591A; --steppe-soft:#F6E3D4;
+  --ok:#1C7F53; --ok-soft:#DDF1E6; --warn:#946200; --warn-soft:#F7ECD2; --risk:#B23A28; --risk-soft:#F7E0DB;
+  --display:"Unbounded", "Arial Black", Arial, sans-serif;
+  --body:"Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0C141F; --surface:#131E2D; --sunken:#0F1824; --ink:#E5ECF5; --muted:#9DABBE; --line:#26354A;
+    --accent:#86A9FF; --accent-soft:#1D2D4A; --steppe:#F0A46B; --steppe-soft:#3A2617;
+    --ok:#62CF9B; --ok-soft:#14301F; --warn:#E9B957; --warn-soft:#352A10; --risk:#F2927E; --risk-soft:#3A1C17;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0C141F; --surface:#131E2D; --sunken:#0F1824; --ink:#E5ECF5; --muted:#9DABBE; --line:#26354A;
+  --accent:#86A9FF; --accent-soft:#1D2D4A; --steppe:#F0A46B; --steppe-soft:#3A2617;
+  --ok:#62CF9B; --ok-soft:#14301F; --warn:#E9B957; --warn-soft:#352A10; --risk:#F2927E; --risk-soft:#3A1C17;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;flex-direction:column;gap:10px;padding-block:14px 0}
+.brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.brand h1{font-family:var(--display);font-weight:700;font-size:clamp(18px,2.6vw,24px);margin:0;letter-spacing:-.2px;text-wrap:balance}
+.brand .tag{font-size:13px;color:var(--muted)}
+nav.steps{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.steps a{flex:none;display:flex;align-items:center;gap:8px;padding:10px 14px 12px;color:var(--muted);text-decoration:none;font-weight:600;font-size:14px;border-bottom:3px solid transparent}
+nav.steps a .n{font-variant-numeric:tabular-nums;font-size:12px;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;background:var(--sunken);color:var(--muted)}
+nav.steps a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+nav.steps a[aria-current="page"] .n{background:var(--accent);color:var(--surface)}
+nav.steps a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+main{padding-block:24px 64px}
+.note{display:flex;gap:12px;align-items:flex-start;background:var(--steppe-soft);color:var(--ink);border-radius:12px;padding:12px 16px;font-size:14px;margin-bottom:20px}
+.note b{color:var(--steppe)}
+.note .act{margin-left:auto;flex:none}
+h2{font-family:var(--display);font-weight:500;font-size:clamp(20px,2.4vw,26px);margin:0 0 6px;text-wrap:balance}
+.lede{color:var(--muted);margin:0 0 20px;max-width:70ch}
+.grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:1fr}}
+.panel{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.panel h3{font-size:15px;margin:0 0 12px;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);font-weight:700}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px}
+.fields.four{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:760px){.fields.four{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.fields,.fields.four{grid-template-columns:1fr}}
+.f{display:flex;flex-direction:column;gap:6px;min-width:0}
+.f.full{grid-column:1/-1}
+label.l,.legend{font-size:13px;font-weight:700;color:var(--ink)}
+input[type=text],input[type=number],select,textarea{font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 11px;width:100%;min-width:0}
+textarea{min-height:84px;resize:vertical}
+.radios,.checks{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;cursor:pointer}
+.opt input{margin-top:4px;accent-color:var(--accent)}
+.hint{font-size:12.5px;color:var(--muted)}
+.result{position:sticky;top:calc(env(safe-area-inset-top,0px) + 118px);display:flex;flex-direction:column;gap:16px}
+@media (max-width:860px){.result{position:static}}
+.status{display:flex;flex-direction:column;gap:10px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;padding:5px 11px;border-radius:999px;background:var(--sunken);color:var(--ink)}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+.chip.risk{background:var(--risk-soft);color:var(--risk)}
+.chip.acc{background:var(--accent-soft);color:var(--accent)}
+.big{font-family:var(--display);font-weight:700;font-size:28px;line-height:1.15}
+.list{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:14.5px}
+.ladder{display:flex;flex-direction:column;gap:12px}
+.rung{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;padding:16px;border-radius:12px;border:1px solid var(--line);background:var(--surface)}
+.rung .badge{grid-row:1/span 3;width:40px;height:40px;border-radius:10px;display:grid;place-items:center;font-family:var(--display);font-weight:700;background:var(--sunken);color:var(--muted)}
+.rung.on{border:2px solid var(--accent)}
+.rung.on .badge{background:var(--accent);color:var(--surface)}
+.rung.later .badge{background:var(--warn-soft);color:var(--warn)}
+.rung h4{margin:0;font-size:16px}
+.rung p{margin:0;font-size:14px;color:var(--muted)}
+.rung .why{font-size:13.5px;color:var(--ink)}
+.cols2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.cols2>*{min-width:0}
+@media (max-width:640px){.cols2{grid-template-columns:minmax(0,1fr)}}
+.nopromise{background:var(--sunken);border-radius:12px;padding:16px}
+.nopromise h4{margin:0 0 8px;font-size:14px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--sunken);font-size:12.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+td input,td select{padding:6px 8px;font-size:14px;background:var(--surface)}
+tr:last-child td{border-bottom:none}
+.num{font-variant-numeric:tabular-nums}
+.btn{font:inherit;font-weight:700;font-size:14px;border-radius:10px;padding:9px 14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.btn:hover{border-color:var(--accent)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.seg button{font:inherit;font-size:14px;font-weight:600;border-radius:999px;padding:7px 13px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.section{display:flex;flex-direction:column;gap:20px}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.kpis{grid-template-columns:1fr}}
+.kpi{background:var(--sunken);border-radius:12px;padding:14px}
+.kpi .v{font-family:var(--display);font-weight:700;font-size:22px;font-variant-numeric:tabular-nums}
+.kpi .k{font-size:13px;color:var(--muted)}
+.weeks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:760px){.weeks{grid-template-columns:1fr 1fr}}
+@media (max-width:420px){.weeks{grid-template-columns:1fr}}
+.week{border-top:4px solid var(--steppe);background:var(--surface);border-radius:10px;padding:12px;border-left:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.week b{display:block;font-size:13px;color:var(--steppe);text-transform:uppercase;letter-spacing:.6px}
+.week span{font-size:14px}
+.delta.up{color:var(--ok);font-weight:700}
+.delta.down{color:var(--risk);font-weight:700}
+.delta.flat{color:var(--muted)}
+.copybox{width:100%;min-height:180px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px}
+.toast{font-size:13.5px;font-weight:700;color:var(--ok)}
+.src a{color:var(--accent)}
+.src li{font-size:14px}
+.facts{display:flex;flex-direction:column;gap:10px}
+.fact{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start;font-size:14.5px}
+.fact .chip{white-space:nowrap}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-block:16px 28px}
+@media (prefers-reduced-motion:no-preference){.rung,.chip{transition:background .2s,border-color .2s}}
+</style>
+</head>
+<body>
+
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>AP Cross-Border Growth Bridge · Казахстан</h1>
+      <span class="tag">Прототип для UniCorner AI · Accelerate Prosperity · Команда 2</span>
+    </div>
+    <nav class="steps" aria-label="Шаги">
+      <a href="#diag" data-view="diag"><span class="n">1</span>Диагностика</a>
+      <a href="#route" data-view="route"><span class="n">2</span>Маршрут</a>
+      <a href="#pack" data-view="pack"><span class="n">3</span>Market Entry Pack</a>
+      <a href="#progress" data-view="progress"><span class="n">4</span>Было → стало</a>
+      <a href="#about" data-view="about"><span class="n">5</span>Как это работает</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="note" role="note">
+    <div><b>Пример.</b> Открыт с вымышленной компанией «Тил AI». Замените её данными реального стартапа — только с его согласия. Всё, что вы вводите, хранится только в этом браузере.</div>
+    <button class="btn act" id="resetBtn" type="button">Вернуть пример</button>
+  </div>
+
+  <!-- STEP 1 -->
+  <section id="view-diag" class="section" data-v="diag">
+    <div>
+      <h2>Диагностика готовности</h2>
+      <p class="lede">Трекер заполняет карточку вместе с командой на отборе или в первую неделю UniCorner AI. Справа сразу видно статус команды, тип AI и чего не хватает для следующего шага.</p>
+    </div>
+    <div class="grid">
+      <form class="panel" id="diagForm" autocomplete="off">
+        <h3>Карточка стартапа</h3>
+        <div class="fields">
+          <div class="f full"><label class="l" for="name">Компания</label><input type="text" id="name"></div>
+          <div class="f"><label class="l" for="industry">Отрасль клиентов</label>
+            <select id="industry">
+              <option value="retail">Ритейл и e-commerce</option><option value="edu">Образование</option><option value="fintech">Финансы</option><option value="hr">HR и найм</option><option value="med">Медицина</option><option value="logistics">Логистика</option><option value="tourism">Туризм</option><option value="other">Другое</option>
+            </select></div>
+          <div class="f"><label class="l" for="model">Кому продаёте</label>
+            <select id="model"><option value="b2b">Бизнесу (B2B)</option><option value="b2c">Людям (B2C)</option><option value="b2b2c">Бизнесу и людям</option></select></div>
+          <div class="f"><label class="l" for="stage">Стадия</label>
+            <select id="stage">
+              <option value="0">Идея</option><option value="1">Прототип</option><option value="2">MVP без платящих клиентов</option><option value="3">Первые платящие клиенты</option><option value="4">Стабильная выручка (PMF)</option><option value="5">Быстрый рост</option>
+            </select></div>
+          <div class="f"><label class="l" for="clients">Платящих клиентов</label><input type="number" id="clients" min="0" inputmode="numeric"></div>
+          <div class="f full"><span class="legend">Какую роль играет AI</span>
+            <div class="radios" role="radiogroup">
+              <label class="opt"><input type="radio" name="ai" id="ai-core" value="core"> AI — основа продукта: без него продукт не работает</label>
+              <label class="opt"><input type="radio" name="ai" id="ai-enab" value="enabled"> AI заметно улучшает продукт</label>
+              <label class="opt"><input type="radio" name="ai" id="ai-weak" value="weak"> AI почти не влияет на продукт</label>
+            </div></div>
+          <div class="f full"><span class="legend">Что уже есть</span>
+            <div class="checks">
+              <label class="opt"><input type="checkbox" id="aiProof"> Можем показать, как меряем качество AI (точность, доля без оператора и т. п.)</label>
+              <label class="opt"><input type="checkbox" id="techLead"> В команде есть человек, отвечающий за технологию</label>
+              <label class="opt"><input type="checkbox" id="salesLead"> В команде есть человек, отвечающий за продажи</label>
+            </div></div>
+          <div class="f"><label class="l" for="kz">Сигнал спроса в Казахстане</label>
+            <select id="kz"><option value="0">Пока нет</option><option value="1">Есть запросы или интерес</option><option value="2">Есть пилот или клиент</option></select></div>
+          <div class="f"><label class="l" for="money">Нужны деньги в ближайший год</label>
+            <select id="money"><option value="0">Не сейчас</option><option value="1">До $50 000</option><option value="2">Больше $50 000</option></select></div>
+          <div class="f full"><span class="legend">Готовность к шагам в Казахстане</span>
+            <div class="checks">
+              <label class="opt"><input type="checkbox" id="relocate"> CEO или сооснователь может работать в Алматы 12 недель</label>
+              <label class="opt"><input type="checkbox" id="openToo"> Готовы открыть ТОО в Казахстане, если появятся клиенты</label>
+            </div></div>
+        </div>
+      </form>
+
+      <aside class="result" aria-live="polite">
+        <div class="panel status">
+          <h3>Результат</h3>
+          <div class="big" id="rStatus">—</div>
+          <div class="chips" id="rChips"></div>
+          <p class="hint" id="rStatusWhy"></p>
+        </div>
+        <div class="panel">
+          <h3>Чего не хватает для следующего шага</h3>
+          <ul class="list" id="rGaps"></ul>
+        </div>
+        <div class="panel">
+          <h3>Связь с командой</h3>
+          <label class="opt"><input type="checkbox" id="consent"> Команда согласна, чтобы AP связалась с ней перед следующим набором</label>
+          <p class="hint" id="rRetain"></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- STEP 2 -->
+  <section id="view-route" class="section" data-v="route" hidden>
+    <div>
+      <h2>Маршрут выхода: три ступени</h2>
+      <p class="lede">Каждая команда идёт настолько далеко, насколько готова. Подсвечен рекомендованный следующий шаг для <b id="rName2">компании</b>. AP ничего не строит за рубежом: она показывает ступень и готовит к ней.</p>
+    </div>
+    <div class="ladder" id="ladder"></div>
+    <div class="cols2">
+      <div class="panel">
+        <h3>Деньги</h3>
+        <div id="moneyRoute"></div>
+      </div>
+      <div class="nopromise">
+        <h4>Чего этот маршрут не обещает</h4>
+        <ul class="list">
+          <li>Встречи с клиентами, пилоты и сделки: их добывает основатель, AP помогает подготовиться.</li>
+          <li>Место в Market Entry или другой программе: отбор у организатора, набор 2027 не объявлен.</li>
+          <li>Финансирование AP Astana или AP Limited, SAFE или отсутствие залога: решение принимает инвестор.</li>
+          <li>Бесплатные услуги One Stop Shop: это платные подрядчики со скидкой 10%.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- STEP 3 -->
+  <section id="view-pack" class="section" data-v="pack" hidden>
+    <div>
+      <h2>Market Entry Pack</h2>
+      <p class="lede">Пакет команда собирает на неделе «Рынок Казахстана» внутри UniCorner AI. Результат — план, который можно проверить разговорами с покупателями за 4 недели.</p>
+    </div>
+
+    <div class="panel">
+      <h3>1. Кому продаём в Казахстане</h3>
+      <div class="seg" id="segBtns"></div>
+      <div class="fields" style="margin-top:14px">
+        <div class="f full"><label class="l" for="segCustom">Свой вариант сегмента</label><input type="text" id="segCustom" placeholder="Например: сети аптек в Алматы и Астане"></div>
+        <div class="f full"><label class="l" for="vp">Ценностное предложение в одной фразе</label><textarea id="vp"></textarea><span class="hint">Формула: для кого, какую задачу решаем, каким измеримым результатом.</span></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="row" style="justify-content:space-between;margin-bottom:12px">
+        <h3 style="margin:0">2. Список потенциальных покупателей</h3>
+        <span class="chip acc num" id="leadCount">0 из 20</span>
+      </div>
+      <p class="hint" style="margin:0 0 12px">Цель — 20 компаний. Это список для проверки спроса, а не подтверждённые клиенты. Названия вписывает команда из открытых источников.</p>
+      <div class="tablewrap"><table id="leadTable">
+        <thead><tr><th style="width:24%">Компания</th><th style="width:14%">Город</th><th style="width:20%">Кто решает</th><th style="width:26%">Почему им это нужно</th><th style="width:16%">Статус</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+      <div class="row" style="margin-top:12px"><button class="btn" type="button" id="addLead">Добавить компанию</button></div>
+    </div>
+
+    <div class="cols2">
+      <div class="panel">
+        <h3>3. Конкуренты и аналоги</h3>
+        <div class="tablewrap"><table id="compTable" style="min-width:420px">
+          <thead><tr><th>Кто</th><th>Цена</th><th>Чем мы отличаемся</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+      </div>
+      <div class="panel">
+        <h3>4. Локализация</h3>
+        <div class="checks" id="locChecks"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>5. Юридические и операционные вопросы</h3>
+      <div class="facts">
+        <div class="fact"><span class="chip ok">Факт</span><span>Кыргызстан и Казахстан входят в ЕАЭС. Продавать казахстанскому клиенту можно по договору от кыргызского ОсОО. <b>Налоги, валюту и оформление договора уточнить у юриста.</b></span></div>
+        <div class="fact"><span class="chip ok">Факт</span><span>Статус участника Astana Hub (налоговые льготы, рабочие визы) получает только казахстанское ТОО или АО. Директору нужны ИИН, ЭЦП и казахстанский номер; путь до статуса — около 4–6 недель; участник платит 1% выручки.</span></div>
+        <div class="fact"><span class="chip ok">Факт</span><span>One Stop Shop Astana Hub — каталог платных подрядчиков: миграция, бухгалтерия, юристы, soft landing. Через Astana Hub — скидка 10%.</span></div>
+        <div class="fact"><span class="chip ok">Факт</span><span>Инвестиции Accelerate Prosperity Limited оформляются через холдинговую компанию в МФЦА, которая владеет бизнесом в стране команды. Команда и налоги остаются дома.</span></div>
+        <div class="fact"><span class="chip warn">Проверить</span><span>Требования Казахстана к хранению персональных данных клиентов, если продукт их обрабатывает.</span></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>6. Экономика одного пилота</h3>
+      <div class="fields four" id="pilotFields">
+        <div class="f"><label class="l" for="pPrice">Цена в месяц, $</label><input type="number" id="pPrice" min="0" inputmode="decimal"></div>
+        <div class="f"><label class="l" for="pMonths">Месяцев пилота</label><input type="number" id="pMonths" min="1" inputmode="numeric"></div>
+        <div class="f"><label class="l" for="pCost">Расходы на клиента в месяц, $</label><input type="number" id="pCost" min="0" inputmode="decimal"><span class="hint">AI-сервисы, сервер, поддержка</span></div>
+        <div class="f"><label class="l" for="pTrip">Разовые расходы, $</label><input type="number" id="pTrip" min="0" inputmode="decimal"><span class="hint">Поездка, юрист, перевод</span></div>
+      </div>
+      <div class="kpis" style="margin-top:16px">
+        <div class="kpi"><div class="v" id="kRev">—</div><div class="k">Выручка за пилот</div></div>
+        <div class="kpi"><div class="v" id="kMargin">—</div><div class="k">Остаётся после расходов</div></div>
+        <div class="kpi"><div class="v" id="kBreak">—</div><div class="k">Окупаемость разовых расходов</div></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>7. План контактов на 4 недели</h3>
+      <div class="weeks">
+        <div class="week"><b>Неделя 1</b><span>Собрать 20 компаний и найти, кто в каждой решает</span></div>
+        <div class="week"><b>Неделя 2</b><span>Написать всем 20, коротко и про их задачу</span></div>
+        <div class="week"><b>Неделя 3</b><span>Провести 5 разговоров, записать возражения</span></div>
+        <div class="week"><b>Неделя 4</b><span>Предложить пилот 2–3 компаниям, цель — 1 согласие</span></div>
+      </div>
+      <p class="hint" style="margin-top:10px">Цифры — ориентиры для трекера, а не обещание результата.</p>
+    </div>
+
+    <div class="panel">
+      <h3>8. Идём дальше или меняем план</h3>
+      <div class="cols2">
+        <div><span class="chip ok">Идём дальше</span><p style="margin:8px 0 0;font-size:14.5px">5 и больше разговоров и хотя бы один пилот или письмо о намерениях за 8 недель.</p></div>
+        <div><span class="chip risk">Меняем план</span><p style="margin:8px 0 0;font-size:14.5px">Меньше 2 ответов из 20 или в разговорах никто не видит ценности. Меняем сегмент или предложение, а не рынок целиком.</p></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Забрать пакет</h3>
+      <div class="row"><button class="btn primary" type="button" id="copyPack">Скопировать пакет текстом</button><span class="toast" id="copyToast" hidden>Скопировано</span></div>
+      <textarea class="copybox" id="packText" readonly hidden aria-label="Текст пакета"></textarea>
+    </div>
+  </section>
+
+  <!-- STEP 4 -->
+  <section id="view-progress" class="section" data-v="progress" hidden>
+    <div>
+      <h2>Было → стало</h2>
+      <p class="lede">Замер в первую неделю программы и на Demo Day. Так AP видит, что изменилось у команды, а жюри и инвесторы — чем это доказано. Пример заполнен условными цифрами.</p>
+    </div>
+    <div class="panel">
+      <div class="tablewrap"><table id="progTable">
+        <thead><tr><th style="width:38%">Показатель</th><th style="width:20%">Неделя 1</th><th style="width:20%">Demo Day</th><th style="width:22%">Изменение</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+      <div class="fields" style="margin-top:14px">
+        <div class="f full"><label class="l" for="proofHow">Чем подтверждено</label><textarea id="proofHow"></textarea><span class="hint">Договоры, счета, выгрузка из продукта, записи разговоров. Без подтверждения цифра остаётся заявлением.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STEP 5 -->
+  <section id="view-about" class="section" data-v="about" hidden>
+    <div>
+      <h2>Как это встраивается в AP</h2>
+      <p class="lede">Инструмент не требует новой программы, CRM или меморандума. Он ложится в набор, восьминедельный UniCorner AI и работу с выпускниками.</p>
+    </div>
+    <div class="ladder">
+      <div class="rung on"><div class="badge">1</div><h4>Набор</h4><p>Обещание в анонсе: «UniCorner AI — 8 недель и путь на рынок Казахстана». Бесплатно, без доли, можно совмещать с работой.</p></div>
+      <div class="rung on"><div class="badge">2</div><h4>Отбор и неделя 1</h4><p>Диагностика: статус, тип AI, пробелы. Замер «было».</p></div>
+      <div class="rung on"><div class="badge">3</div><h4>Неделя «Рынок Казахстана»</h4><p>Команда собирает Market Entry Pack с трекером.</p></div>
+      <div class="rung on"><div class="badge">4</div><h4>Demo Day и после</h4><p>Замер «стало», выбор ступени, контакты по плану. Команды «почти готов» и «на будущее» остаются в базе с согласия.</p></div>
+    </div>
+    <div class="cols2">
+      <div class="panel">
+        <h3>Метрики для AP</h3>
+        <ul class="list">
+          <li>Подходящие заявки на AI-трек и их источник. Сейчас: 11 из 60 заявок набора 2026.</li>
+          <li>Сколько команд собрали пакет и провели 5+ разговоров.</li>
+          <li>Пилоты и клиенты в Казахстане — отдельно от планов.</li>
+          <li>Сколько команд «почти готов» вернулись в следующий набор.</li>
+        </ul>
+      </div>
+      <div class="panel src">
+        <h3>Источники</h3>
+        <ul class="list">
+          <li><a href="https://astanahub.com/en/l/one-stop-shop" target="_blank" rel="noopener">Astana Hub: One Stop Shop</a></li>
+          <li><a href="https://astanahub.com/en/l/marketentry/centraleurasia2026" target="_blank" rel="noopener">Astana Hub: Central Eurasia Market Entry 2026</a></li>
+          <li><a href="https://wcr-consulting.com/blog/2026/06/21/registratsiya-kompanii-v-astana-hub/" target="_blank" rel="noopener">Регистрация в Astana Hub: требования и сроки</a></li>
+          <li><a href="https://digitalbusiness.kz/2026-09-29/v-astanu-privezli-23-mln-stalo-izvestno-na-kakie-startapi-budut-tratit-eti-dengi/" target="_blank" rel="noopener">DigitalBusiness: Accelerate Prosperity Limited</a></li>
+          <li>Ответы AP от 2 ноября 2026; Selection Board 2026</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">Прототип команды 2 для кейса Accelerate Prosperity, Girls for Girls Business Case Challenge. Не является сервисом AP. Условия программ проверены 8 ноября 2026.</footer>
+
+<script>
+(function(){
+  const KEY='ap-bridge-v1';
+  const SEGMENTS={
+    retail:['Сети магазинов','Продавцы на маркетплейсах','Интернет-магазины'],
+    edu:['Частные школы','Учебные центры и курсы','Университеты'],
+    fintech:['МФО и кредитные организации','Страховые компании','Бухгалтерские фирмы'],
+    hr:['Крупные работодатели','Рекрутинговые агентства','Колл-центры'],
+    med:['Частные клиники','Лаборатории','Аптечные сети'],
+    logistics:['Курьерские службы','Склады и 3PL-операторы','Транспортные компании'],
+    tourism:['Туроператоры','Гостиницы','Гостевые дома'],
+    other:['Малый и средний бизнес','Крупные компании','Некоммерческие организации']
+  };
+  const LOC=['Интерфейс на русском','Интерфейс на казахском','Цены в тенге','Местные способы оплаты','Кейс клиента из Кыргызстана на одной странице','Поддержка в рабочее время Казахстана'];
+  const STATUSES=['Не связались','Написали','Разговор','Предложили пилот','Пилот'];
+  const EXAMPLE={
+    name:'Тил AI (пример)',industry:'retail',model:'b2b',stage:'3',clients:5,ai:'core',
+    aiProof:false,techLead:true,salesLead:false,kz:'1',money:'1',relocate:false,openToo:false,consent:true,
+    seg:'Сети магазинов',segCustom:'',
+    vp:'Для сетей магазинов в Алматы Тил AI отвечает покупателям в чатах на русском и казахском без оператора, чтобы снизить нагрузку на поддержку.',
+    leads:[
+      {c:'[Сеть магазинов 1]',city:'Алматы',who:'Руководитель клиентского сервиса',why:'Много однотипных вопросов в чатах',st:'Не связались'},
+      {c:'[Сеть магазинов 2]',city:'Астана',who:'Директор по маркетингу',why:'Нужны ответы на казахском',st:'Не связались'},
+      {c:'[Интернет-магазин 3]',city:'Алматы',who:'Основатель',why:'Нет ночной поддержки',st:'Не связались'}
+    ],
+    comps:[
+      {n:'[Местный чат-бот сервис]',p:'[цена]',d:'[чем отличаемся]'},
+      {n:'Операторы поддержки в штате',p:'Зарплата',d:'Работает круглосуточно, дешевле на объёме'},
+      {n:'[Глобальный сервис]',p:'[цена]',d:'Казахский и русский язык, местная поддержка'}
+    ],
+    loc:['Интерфейс на русском','Цены в тенге'],
+    pPrice:250,pMonths:2,pCost:60,pTrip:400,
+    prog:[
+      {m:'Платящие клиенты',a:5,b:15},
+      {m:'Выручка в месяц, $',a:750,b:2100},
+      {m:'Клиенты в Казахстане',a:0,b:1},
+      {m:'Разговоры с покупателями в Казахстане',a:0,b:5},
+      {m:'Доля вопросов без оператора, %',a:55,b:72}
+    ],
+    proofHow:'Пример: договоры с клиентами, выгрузка из панели продукта за первую и восьмую неделю, письмо о намерениях от казахстанской сети.'
+  };
+  let S;
+  function load(){try{const r=localStorage.getItem(KEY);if(r){return Object.assign(structuredClone(EXAMPLE),JSON.parse(r));}}catch(e){}return structuredClone(EXAMPLE);}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(S));}catch(e){}}
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const money=n=>(n<0?'−':'')+'$'+Math.abs(Math.round(n)).toLocaleString('ru-RU');
+
+  /* ---------- form binding ---------- */
+  const textIds=['name','industry','model','stage','kz','money','vp','segCustom','proofHow'];
+  const numIds=['clients','pPrice','pMonths','pCost','pTrip'];
+  const boolIds=['aiProof','techLead','salesLead','relocate','openToo','consent'];
+  function fill(){
+    textIds.forEach(id=>{$(id).value=S[id]??'';});
+    numIds.forEach(id=>{$(id).value=S[id]??'';});
+    boolIds.forEach(id=>{$(id).checked=!!S[id];});
+    document.querySelectorAll('input[name=ai]').forEach(r=>{r.checked=(r.value===S.ai);});
+    renderSegs();renderLeads();renderComps();renderLoc();renderProg();
+  }
+  textIds.forEach(id=>$(id).addEventListener('input',()=>{S[id]=$(id).value;if(id==='industry'){S.seg=SEGMENTS[S.industry][0];renderSegs();}if(id==='segCustom'){renderSegs();}update();}));
+  numIds.forEach(id=>$(id).addEventListener('input',()=>{const v=parseFloat($(id).value);S[id]=isNaN(v)?0:v;update();}));
+  boolIds.forEach(id=>$(id).addEventListener('change',()=>{S[id]=$(id).checked;update();}));
+  document.querySelectorAll('input[name=ai]').forEach(r=>r.addEventListener('change',()=>{S.ai=r.value;update();}));
+
+  /* ---------- logic ---------- */
+  function assess(){
+    const st=+S.stage, cl=+S.clients||0, ai=S.ai;
+    let status,cls,why;
+    if(st<=1){status='На будущее';cls='risk';why='Пока идея или прототип: акселерации рано. Маршрут — внешние ранние программы и база AP с согласия.';}
+    else if(st>=3&&cl>=1&&ai!=='weak'){status='Готов';cls='ok';why='Есть продукт, платящие клиенты и AI играет заметную роль: команда подходит для UniCorner AI и недели «Рынок Казахстана».';}
+    else{status='Почти готов';cls='warn';why='Продукт есть, но не хватает одного-двух признаков. Ниже — что именно закрыть до следующего набора.';}
+    const aiLabel=ai==='core'?['AI-native','acc']:ai==='enabled'?['AI-enabled','acc']:['Риск AI-washing','risk'];
+    const gaps=[];
+    if(st<=2)gaps.push('Получить первых платящих клиентов дома.');
+    if(cl<1&&st>=3)gaps.push('Подтвердить платящих клиентов договором или счётом.');
+    if(ai==='weak')gaps.push('Показать, что AI даёт клиенту измеримую пользу, или подаваться не на AI-трек.');
+    if(!S.aiProof&&ai!=='weak')gaps.push('Настроить замер качества AI: одна понятная метрика до и после.');
+    if(!S.salesLead)gaps.push('Назначить человека на продажи: в заявках AI-трека продажи — самый частый пробел.');
+    if(!S.techLead)gaps.push('Закрыть роль технического лидера.');
+    if(+S.kz===0&&status!=='На будущее')gaps.push('Проверить спрос в Казахстане: 20 компаний и 5 разговоров на неделе «Рынок Казахстана».');
+    if(!gaps.length)gaps.push('Критичных пробелов нет. Следующий шаг — Market Entry Pack.');
+    return {st,cl,status,cls,why,aiLabel,gaps};
+  }
+  function ladder(a){
+    const b2b=S.model!=='b2c';
+    const r1={t:'Продавать из Бишкека',d:'Договор с казахстанским клиентом от кыргызского ОсОО. Почти без затрат.',cost:'Почти ничего'};
+    const r2={t:'Присутствие в Казахстане',d:'ТОО в Казахстане через подрядчиков One Stop Shop Astana Hub; при желании — статус участника Astana Hub.',cost:'Оплата подрядчиков, 1% выручки для участника Astana Hub'};
+    const r3={t:'Market Entry или Silkway',d:'12 недель в Алматы, пилоты с местными компаниями, Demo Day. Отбор у Astana Hub, набор 2027 не объявлен.',cost:'12 недель очно, SAFE на $20 000 в 2026 году'};
+    let s1,s2,s3,w1,w2,w3;
+    if(a.status==='На будущее'){s1='off';w1='Сначала продукт и клиенты дома.';}
+    else{s1='on';w1=a.status==='Готов'?'Рекомендуем как первый шаг.':'Доступно после закрытия пробелов.';}
+    if(+S.kz===2&&S.openToo){s2='on';w2='Есть клиент в Казахстане и готовность открыть ТОО.';}
+    else{s2='later';w2=+S.kz===2?'Клиент в Казахстане есть: решите, нужно ли своё ТОО.':'Позже: когда клиентов в Казахстане станет несколько.';}
+    if(a.st>=4&&b2b&&S.relocate){s3='on';w3='Стадия PMF, B2B и готовность к 12 неделям в Алматы.';}
+    else{const miss=[];if(a.st<4)miss.push('стабильная выручка');if(!b2b)miss.push('модель B2B');if(!S.relocate)miss.push('12 недель в Алматы');s3='later';w3='Не хватает: '+miss.join(', ')+'.';}
+    if(s1==='on'&&a.status==='Готов'){/* highlight only the next step */}
+    return [[r1,s1,w1,'1'],[r2,s2,w2,'2'],[r3,s3,w3,'3']];
+  }
+  function moneyRoute(a){
+    const m=+S.money;
+    if(m===0)return '<p style="margin:0">Деньги сейчас не главное. Фокус — клиенты и замер «было → стало».</p>';
+    if(a.st<3)return '<p style="margin:0">Сначала трекшн: инвесторы смотрят на платящих клиентов. Вернитесь к вопросу после первых продаж.</p>';
+    if(m===1)return '<ul class="list"><li><b>Займ AP Кыргызстан:</b> возвратный, 10–12% годовых, условия залога обсуждаются отдельно.</li><li><b>IRA:</b> подготовка к разговору с венчурными фондами.</li></ul>';
+    return '<ul class="list"><li><b>IRA:</b> финмодель, data room, встречи с фондами.</li><li><b>AP Astana / Accelerate Prosperity Limited:</b> по данным СМИ — до $500 000 через SAFE, долг или миноритарную долю, Кыргызстан в приоритете, нужен холдинг в МФЦА. Подача — через Expression of Interest. Не гарантировано, условия уточнить у AP.</li></ul>';
+  }
+
+  /* ---------- renders ---------- */
+  function renderSegs(){
+    const box=$('segBtns');box.innerHTML='';
+    (SEGMENTS[S.industry]||SEGMENTS.other).forEach(s=>{
+      const b=document.createElement('button');b.type='button';b.textContent=s;b.setAttribute('aria-pressed',String(S.seg===s&&!S.segCustom));
+      b.addEventListener('click',()=>{S.seg=s;S.segCustom='';$('segCustom').value='';renderSegs();update();});box.appendChild(b);
+    });
+  }
+  function renderLeads(){
+    const tb=document.querySelector('#leadTable tbody');tb.innerHTML='';
+    S.leads.forEach((L,i)=>{
+      const tr=document.createElement('tr');
+      tr.innerHTML=`<td><input type="text" id="lc${i}" value="${esc(L.c)}" aria-label="Компания"></td><td><input type="text" id="lcity${i}" value="${esc(L.city)}" aria-label="Город"></td><td><input type="text" id="lw${i}" value="${esc(L.who)}" aria-label="Кто решает"></td><td><input type="text" id="ly${i}" value="${esc(L.why)}" aria-label="Почему"></td><td><select id="ls${i}" aria-label="Статус">${STATUSES.map(s=>`<option${s===L.st?' selected':''}>${s}</option>`).join('')}</select></td>`;
+      tb.appendChild(tr);
+      [['c','lc'],['city','lcity'],['who','lw'],['why','ly'],['st','ls']].forEach(([k,p])=>{$(p+i).addEventListener('input',e=>{S.leads[i][k]=e.target.value;update();});});
+    });
+    $('addLead').disabled=S.leads.length>=20;
+  }
+  $('addLead').addEventListener('click',()=>{if(S.leads.length<20){S.leads.push({c:'',city:'',who:'',why:'',st:'Не связались'});renderLeads();update();$('lc'+(S.leads.length-1)).focus();}});
+  function renderComps(){
+    const tb=document.querySelector('#compTable tbody');tb.innerHTML='';
+    S.comps.forEach((C,i)=>{const tr=document.createElement('tr');
+      tr.innerHTML=`<td><input type="text" id="cn${i}" value="${esc(C.n)}" aria-label="Кто"></td><td><input type="text" id="cp${i}" value="${esc(C.p)}" aria-label="Цена"></td><td><input type="text" id="cd${i}" value="${esc(C.d)}" aria-label="Отличие"></td>`;
+      tb.appendChild(tr);[['n','cn'],['p','cp'],['d','cd']].forEach(([k,p])=>$(p+i).addEventListener('input',e=>{S.comps[i][k]=e.target.value;update();}));});
+  }
+  function renderLoc(){
+    const box=$('locChecks');box.innerHTML='';
+    LOC.forEach((t,i)=>{const l=document.createElement('label');l.className='opt';l.innerHTML=`<input type="checkbox" id="loc${i}"${S.loc.includes(t)?' checked':''}> ${esc(t)}`;box.appendChild(l);
+      $('loc'+i).addEventListener('change',e=>{S.loc=e.target.checked?[...new Set([...S.loc,t])]:S.loc.filter(x=>x!==t);update();});});
+  }
+  function renderProg(){
+    const tb=document.querySelector('#progTable tbody');tb.innerHTML='';
+    S.prog.forEach((P,i)=>{const tr=document.createElement('tr');
+      tr.innerHTML=`<td><input type="text" id="pm${i}" value="${esc(P.m)}" aria-label="Показатель"></td><td><input type="number" class="num" id="pa${i}" value="${esc(P.a)}" aria-label="Неделя 1"></td><td><input type="number" class="num" id="pb${i}" value="${esc(P.b)}" aria-label="Demo Day"></td><td class="num" id="pd${i}"></td>`;
+      tb.appendChild(tr);
+      $('pm'+i).addEventListener('input',e=>{S.prog[i].m=e.target.value;update();});
+      ['a','b'].forEach(k=>$('p'+k+i).addEventListener('input',e=>{const v=parseFloat(e.target.value);S.prog[i][k]=isNaN(v)?0:v;update();}));});
+  }
+  function update(){
+    const a=assess();
+    $('rStatus').textContent=a.status;
+    $('rStatusWhy').textContent=a.why;
+    const stLabel=$('stage').options[$('stage').selectedIndex]?.text||'';
+    $('rChips').innerHTML=`<span class="chip ${a.cls}">${a.status}</span><span class="chip ${a.aiLabel[1]}">${a.aiLabel[0]}</span><span class="chip">${esc(stLabel)}</span>`;
+    $('rGaps').innerHTML=a.gaps.map(g=>`<li>${esc(g)}</li>`).join('');
+    $('rRetain').textContent=a.status==='Готов'?'Статус «готов»: приглашение на отбор текущего набора.':(S.consent?'Команда останется в базе AP и получит приглашение в следующий набор, когда закроет пробелы.':'Без согласия команда не попадёт в базу на следующий набор.');
+    $('rName2').textContent=S.name||'компании';
+    $('ladder').innerHTML=ladder(a).map(([r,s,w,n])=>`<div class="rung ${s==='on'?'on':s==='later'?'later':''}"><div class="badge">${n}</div><h4>${r.t}</h4><p>${r.d}</p><p class="why"><b>${s==='on'?'Подходит сейчас.':s==='later'?'Позже.':'Пока рано.'}</b> ${esc(w)} <span class="hint">· ${r.cost}</span></p></div>`).join('');
+    $('moneyRoute').innerHTML=moneyRoute(a);
+    const filled=S.leads.filter(l=>l.c&&l.c.trim()).length;$('leadCount').textContent=filled+' из 20';
+    const rev=(+S.pPrice||0)*(+S.pMonths||0), cost=(+S.pCost||0)*(+S.pMonths||0)+(+S.pTrip||0), net=rev-cost, mm=(+S.pPrice||0)-(+S.pCost||0);
+    $('kRev').textContent=money(rev);$('kMargin').textContent=money(net);
+    $('kBreak').textContent=mm>0?(Math.ceil((+S.pTrip||0)/mm)+' мес.'):'не окупается';
+    S.prog.forEach((P,i)=>{const d=(+P.b||0)-(+P.a||0);const el=$('pd'+i);if(!el)return;const pct=(+P.a)?Math.round(d/(+P.a)*100):null;
+      el.className='num delta '+(d>0?'up':d<0?'down':'flat');el.textContent=(d>0?'+':d<0?'−':'')+Math.abs(d).toLocaleString('ru-RU')+(pct!==null?` (${d>0?'+':''}${pct}%)`:'')+(d>0?' рост':d<0?' снижение':' без изменений');});
+    save();
+  }
+  function packText(){
+    const a=assess(),seg=S.segCustom||S.seg;
+    const L=[];L.push(`# Market Entry Pack: ${S.name}`,'',`Статус: ${a.status} · ${a.aiLabel[0]}`,'',`## Кому продаём в Казахстане`,seg,'',`## Ценностное предложение`,S.vp,'',`## Потенциальные покупатели (${S.leads.filter(l=>l.c).length} из 20)`);
+    S.leads.forEach(l=>{if(l.c)L.push(`- ${l.c} · ${l.city} · ${l.who} · ${l.why} · ${l.st}`);});
+    L.push('','## Конкуренты');S.comps.forEach(c=>L.push(`- ${c.n} · ${c.p} · ${c.d}`));
+    L.push('','## Локализация');LOC.forEach(t=>L.push(`- [${S.loc.includes(t)?'x':' '}] ${t}`));
+    const rev=(+S.pPrice||0)*(+S.pMonths||0), cost=(+S.pCost||0)*(+S.pMonths||0)+(+S.pTrip||0);
+    L.push('','## Экономика пилота',`Цена $${S.pPrice}/мес × ${S.pMonths} мес = ${money(rev)}; расходы ${money(cost)}; остаётся ${money(rev-cost)}`);
+    L.push('','## Маршрут');ladder(a).forEach(([r,s,w,n])=>L.push(`${n}. ${r.t}: ${s==='on'?'подходит сейчас':s==='later'?'позже':'пока рано'} — ${w}`));
+    L.push('','## Чего не хватает');a.gaps.forEach(g=>L.push('- '+g));
+    L.push('','## Было → стало');S.prog.forEach(p=>L.push(`- ${p.m}: ${p.a} → ${p.b}`));
+    L.push('','Прототип команды 2, кейс Accelerate Prosperity. Встречи, пилоты и финансирование не гарантируются.');
+    return L.join('\n');
+  }
+  $('copyPack').addEventListener('click',()=>{
+    const t=packText(),box=$('packText');box.value=t;
+    const ok=()=>{$('copyToast').hidden=false;box.hidden=true;setTimeout(()=>{$('copyToast').hidden=true;},2200);};
+    const fail=()=>{box.hidden=false;box.focus();box.select();};
+    try{navigator.clipboard.writeText(t).then(ok,fail);}catch(e){fail();}
+  });
+  $('resetBtn').addEventListener('click',()=>{S=structuredClone(EXAMPLE);fill();update();});
+
+  /* ---------- views ---------- */
+  const VIEWS=['diag','route','pack','progress','about'];
+  function show(){const v=VIEWS.includes(location.hash.slice(1))?location.hash.slice(1):'diag';
+    document.querySelectorAll('[data-v]').forEach(s=>{s.hidden=s.dataset.v!==v;});
+    document.querySelectorAll('nav.steps a').forEach(a=>{if(a.dataset.view===v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});}
+  window.addEventListener('hashchange',()=>{show();window.scrollTo(0,0);});
+
+  S=load();fill();update();show();
+})();
+</script>
+
+</body>
+</html>
